@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: const Text('Flutter is confusing!'),
         ),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
+          child: Icon(Icons.dashboard),
           onPressed: () {
             print('Pressed!');
           },
