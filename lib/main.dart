@@ -1,24 +1,25 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(TrialAlert());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class TrialAlert extends StatelessWidget {
+  const TrialAlert({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.teal,
-          title: const Text('Flutter is confusing!'),
+          backgroundColor: Colors.cyan,
+          title: const Text('Trial Alert'),
         ),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.dashboard),
+          child: Icon(Icons.add),
+          backgroundColor: Colors.cyan,
           onPressed: () {
-            print('Pressed!');
+            print('test');
           },
         ),
       ),
